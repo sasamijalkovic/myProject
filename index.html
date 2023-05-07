@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>E-Touch</title>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="img/my-logo5.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    E-Touch
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="dashboard.html">Dashboard<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></i>Tutorial</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-target="#signup-modal" data-toggle="modal"><i class="fas fa-user"></i> Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-target="#login-modal" data-toggle="modal"><i class="fas fa-sign-in-alt"></i> Login</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+
+    <div class="modal fade" id="signup-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <img id="img-logo" class="img-thumbnail" src="img/my-logo5.png" alt="">
+        </div>
+        <div id="div-forms">
+          <form>
+          <div class="modal-body">
+          <div>
+            <span>Type your Email and password here:</span>
+          </div>
+          <input class="form-control" placeholder="Email" type="text" required>
+          <input class="form-control" placeholder="Password" type="password" required>
+          <input class="form-control" placeholder="Confirm Password" type="password" required>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+          </div>
+          </div>
+          <div class="modal-footer ml-auto">
+            <div class="row">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+              </div>
+            </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="login-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <img id="img-logo" class="img-thumbnail" src="img/my-logo5.png" alt="">
+        </div>
+        <div id="div-forms">
+          <form>
+          <div class="modal-body">
+          <div>
+            <span>Type your Email and password here:</span>
+          </div>
+          <input class="form-control" placeholder="Email" type="text" required>
+          <input class="form-control" placeholder="Password" type="password" required>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+          </div>
+          </div>
+          <div class="modal-footer ml-auto">
+            <div class="row">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary">Login</button>
+              </div>
+            </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+      <h1 class="text-center"><span class="display-1">E-Touch</span></h1>
+      <h2 class="hero">Fast & Easily manage all your home devices online</h2> 
+  </div>
+  </div>
+  
+  <div class="container car">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+        <img src="img/living-room.jpg" class="card-img-top" alt="living-room">
+        <div class="card-body">
+          <h5 class="card-title">What is E-touch</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Find more...</a>
+        </div>
+        </div>
+      </div>
+       <div class="col-md-4">
+        <div class="card">
+        <img src="img/computer.jpg" class="card-img-top" alt="computer">
+        <div class="card-body">
+          <h5 class="card-title">Get start</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Find more...</a>
+        </div>
+        </div>
+      </div>
+       <div class="col-md-4">
+        <div class="card">
+        <img src="img/abstract.jpg" class="card-img-top" alt="abstract">
+        <div class="card-body">
+          <h5 class="card-title">Preview</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Find more...</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row bg-dark">
+    <div class="col-12 text-center footer">
+      <p>2020 &copy Mijalkovic</p>
+    </div>
+  </div>
+
+  </body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
