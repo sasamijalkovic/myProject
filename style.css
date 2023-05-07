@@ -72,6 +72,9 @@
 }
 
 @media (max-width: 396px) {
+  element.style {
+    width: 100%;
+  }		
   body {
     width: 100%;
   }
