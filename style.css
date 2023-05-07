@@ -74,10 +74,13 @@
 @media (max-width: 396px) {		
   body {
     width: 100%;
-    margin: 0;
   }
   .hero {
     font-size: 70px;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
   }
 }
 
